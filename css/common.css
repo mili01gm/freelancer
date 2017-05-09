@@ -8,6 +8,9 @@
 .row {
   flex-direction: row;
 }
+.j-end {
+  justify-content: flex-end;
+}
 .j-center {
   justify-content: center;
 }
@@ -20,7 +23,9 @@
 .align-center {
   align-items: center;
 }
-
+.align-end {
+  align-items: flex-end;
+}
 .wrap {
   flex-wrap: wrap;
 }
