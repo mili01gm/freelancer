@@ -1,10 +1,32 @@
+/*Container styles*/
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.j-center {
+  justify-content: center;
+}
+.j-around {
+  justify-content: space-around;
+}
+.j-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
 /*Fonts styles*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.title-font {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -28,59 +50,4 @@ h6 {
 
 .bg-none {
   color: #2C3E50;
-}
-
-/*Grid just in case*/
-.container-grid {
-  width: 100%;
-  max-width: 1480px;
-  margin: 0 auto;
-}
-.row::before,
-.row::after {
-  content: "";
-  display: table;
-}
-.row::after {
-  clear: both;
-}
-[class*="col-"]{
-  float: left;
-  padding: 1%;
-}
-.col-1 {
-  width: 8.3333%;
-}
-.col-2 {
-  width: 16.6666%;
-}
-.col-3 {
-  width: 25%;
-}
-.col-4 {
-  width: 33.3333%;
-}
-.col-5 {
-  width: 41.6666%;
-}
-.col-6 {
-  width: 50%;
-}
-.col-7 {
-  width: 58.3333%;
-}
-.col-8 {
-  width: 66.6666%;
-}
-.col-9 {
-  width: 75%;
-}
-.col-10 {
-  width: 83.3333%;
-}
-.col-11 {
-  width: 91.6666%;
-}
-.col-12 {
-  width: 100%;
 }
