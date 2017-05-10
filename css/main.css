@@ -136,18 +136,46 @@
 /*CONTACT*/
 .contact {
   padding: 100px 0;
+  text-align: center;
 }
 .contact-form input {
+  color: #d6c7c7;
+  width: 70%;
   border: 0;
-  border-bottom: 2px solid #cecece;
+  border-bottom: 2px solid #d6c7c7;
+  height: 90px;
+  font-size: 1.7vw;
+  padding-top: 20px;
+}
+.contact-form input:focus {
+  outline: none;
+}
+.contact-form input:nth-child(1) {
+  border-top: 2px solid #d6c7c7;
+}
+.contact-form input:nth-child(4) {
+  height: 200px;
+  padding-top: 0;
+}
+.contact-form input:nth-child(5) {
+  color: #ffffff;
+  padding-top: 0;
+  width: 80px;
+  height: 50px;
+  font-size: 1.5vw;
+}
+.btn-send {
+  display: block;
+  margin-top: 20px;
+  margin-left: 15%;
+  background: #18bc9c;
+  border: 0;
+  border-radius: 10px;
 }
 
 /*End Contact*/
 
 /*FOOTER*/
-.footer {
-
-}
 .footer-menu {
   height: 220px;
   max-height: 100%;
@@ -159,8 +187,8 @@
 .col-4 h2 {
   margin-bottom: 20px;
 }
-.col-4 #info1,
-.col-4 #info2 {
+.footer-menu #info1,
+.footer-menu #info2 {
   width: 50px;
   font-size: 2vw;
 }
@@ -180,5 +208,10 @@
   text-align: center;
   padding-top: 20px;
 }
-
+#info2 a {
+  text-decoration: none;
+  color: #18bc9c;
+}
+/**/
+/**/
 /**/

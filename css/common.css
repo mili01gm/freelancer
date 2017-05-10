@@ -55,7 +55,9 @@
 .light-text {
   font-weight: lighter;
 }
-
+.f-small {
+  font-size: 1.5vw !important;
+}
 /*Colors*/
 .bg-gray {
   background: #2c3e50;
@@ -89,6 +91,7 @@
   border-radius: 5px;
   font-size: 1.5vw;
   padding: 0 10px;
+  text-decoration: none;
 }
 .btn-green {
   background: #ffffff;
@@ -110,6 +113,13 @@
   padding: 3.8% 0;
 }
 
+.li-scroll {
+  background: #18bc9c;
+}
+.a-scroll {
+  background: #18bc9c;
+  color: #ffffff;
+}
 /*Star separator*/
 .star-div {
   text-align: center;

@@ -14,15 +14,15 @@
 <body>
 	<nav class="nav flex j-between align-center w-total bg-gray" id="nav">
 		<h2 class="title-font upper-text" id="nav-title">Start Bootstrap</h2>
-		<ul>
-			<li>
-				<a href="#portfolio" class="title-font upper-text bg-gray">Portfolio</a>
+		<ul id="nav-menu">
+			<li id="nav-portfolio">
+				<a href="#portfolio" class="title-font upper-text bg-gray" id="port-a">Portfolio</a>
 			</li>
-			<li>
-				<a href="#about" class="title-font upper-text bg-gray">About</a>
+			<li id="nav-about">
+				<a href="#about" class="title-font upper-text bg-gray" id="about-a">About</a>
 			</li>
-			<li>
-				<a href="#contact" class="title-font upper-text bg-gray">Contact</a>
+			<li id="nav-contact">
+				<a href="#contact" class="title-font upper-text bg-gray" id="contact-a">Contact</a>
 			</li>
 		</ul>
 	</nav>
@@ -83,7 +83,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos vel eius ipsam ducimus maiores voluptatibus dolorum, mollitia dolore officiis. Ab optio praesentium recusandae ipsam asperiores veniam, necessitatibus corporis quasi, dignissimos.</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dolorem, quas ipsa fuga similique. Nihil odit nobis iure, aliquid tempore eius possimus, quos impedit alias modi nostrum debitis adipisci? Dolorum.</p>
 		</article>
-		<buton type="button" class="btn-white" id="button"><span class="fa fa-download fa-stack"></span>Download Theme</buton>
+		<a href="https://startbootstrap.com/" target="_blank" class="btn-white" id="button"><span class="fa fa-download fa-stack"></span>Download Theme</a>
 	</section>
 	<section class="contact flex column j-around align-center w-total" id="contact">
 		<h2 class="upper-text title-font title-section gray">Contact me</h2>
@@ -93,18 +93,18 @@
 			<div class="bg-gray"></div>
 		</div>
 		<form action="" class="contact-form">
-			<input type="text" class="w-total" placeholder="Name">
-			<input type="email" class="w-total" placeholder="Email Adress">
-			<input type="tel" class="w-total" placeholder="Phone Number">
-			<input type="text" class="w-total" placeholder="Message">
-			<input type="submit" name="" class="btn-white" value="Send">
+			<input type="text" class="" placeholder="Name">
+			<input type="email" class="" placeholder="Email Adress">
+			<input type="tel" class="" placeholder="Phone Number">
+			<input type="text" class="" placeholder="Message">
+			<input type="submit" name="" class="btn-send" value="Send">
 		</form>
 	</section>
 	<footer class="footer w-total bg-gray" id="footer">
 		<div class="footer-menu row">
 			<div class="col-4">
 				<h2 class="upper-text title-font">Location</h2>
-				<span>3481 Melrose Place Beverly Hills, CA 90210</span>
+				<span id="info1" class="f-small">3481 Melrose Place Beverly Hills, CA 90210</span>
 			</div>
 			<div class="col-4">
 				<h2 class="upper-text title-font">Around the web</h2>
@@ -118,7 +118,7 @@
 			</div>
 			<div class="col-4">
 				<h2 class="upper-text title-font">About Freelancer</h2>
-				<span>Freelance is a free to use, open source Bootstrap theme created by <a href="">Start Bootstrap.</a></span>
+				<span id="info2" class="f-small">Freelance is a free to use, open source Bootstrap theme created by <a href="https://startbootstrap.com/">Start Bootstrap.</a></span>
 			</div>
 		</div>
 		<div class="end-footer w-total">
