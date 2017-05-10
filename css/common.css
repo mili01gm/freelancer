@@ -34,25 +34,53 @@
 .title-font {
   font-family: 'Montserrat', sans-serif;
 }
-
 .upper-text {
   text-transform: uppercase;
 }
-
 .light-text {
   font-weight: lighter;
 }
 
-/*Colores*/
+/*Colors*/
 .bg-gray {
-  background: #2C3E50;
+  background: #2c3e50;
   color: white;
 }
 .bg-green {
-  background: #18BC9C;
+  background: #18bc9c;
   color: white;
 }
-
+.bg.red {
+  background: #ba4c63;
+}
+.bg-white {
+  background: #ffffff;
+}
 .bg-none {
-  color: #2C3E50;
+  color: #2c3e50;
+}
+
+.btn-white {
+  background: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/*Star separator*/
+.star-div {
+  text-align: center;
+  max-width: 100%;
+  height: 50px;
+  margin: 0 auto 10px auto;
+}
+.star-div div {
+  display: inline-block;
+  height: 5px;
+  width: 105px;
+  margin: 0 7px;
+}
+.star-div span {
+  font-size: 2.15vw;
 }
