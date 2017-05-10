@@ -13,6 +13,7 @@ window.addEventListener("scroll",function(){
   }
 });
 
+//For ABOUT button
 document.getElementById("button").addEventListener("mouseover",function(){
   this.classList.add("btn-green");
   this.classList.remove("btn-white");
@@ -23,3 +24,10 @@ document.getElementById("button").addEventListener("mouseout",function(){
   this.classList.remove("btn-green");
   this.firstChild.classList.remove("green");
 })
+
+//FOOTER socials
+// document.getElementById("face").
+// document.getElementById('id')
+// document.getElementById('id')
+// document.getElementById('id')
+// document.getElementById('id')

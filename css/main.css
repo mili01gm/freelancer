@@ -134,12 +134,51 @@
 /*End About*/
 
 /*CONTACT*/
+.contact {
+  padding: 100px 0;
+}
+.contact-form input {
+  border: 0;
+  border-bottom: 2px solid #cecece;
+}
 
-
-/**/
+/*End Contact*/
 
 /*FOOTER*/
+.footer {
 
-
+}
+.footer-menu {
+  height: 220px;
+  max-height: 100%;
+  margin: 50px auto 0;
+}
+.footer-menu div {
+  text-align: center;
+}
+.col-4 h2 {
+  margin-bottom: 20px;
+}
+.col-4 #info1,
+.col-4 #info2 {
+  width: 50px;
+  font-size: 2vw;
+}
+.web-social span {
+  font-size: 1.8vw;
+  margin: 5px;
+}
+.web-social span:hover {
+  background: #ffffff;
+  color: #18bc9c;
+}
+.end-footer {
+  background: #233140;
+  color: #ffffff;
+  height: 60px;
+  max-height: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
 
 /**/
