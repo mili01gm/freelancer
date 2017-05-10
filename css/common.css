@@ -79,6 +79,15 @@
   font-size: 1.5vw;
   padding: 0 10px;
 }
+.btn-green {
+  background: #ffffff;
+  color: #18bc9c;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-size: 1.5vw;
+  padding: 0 10px;
+  cursor: pointer;
+}
 .white {
   color: #ffffff;
 }

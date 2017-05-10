@@ -12,3 +12,14 @@ window.addEventListener("scroll",function(){
     child.classList.remove("h2-scroll");
   }
 });
+
+document.getElementById("button").addEventListener("mouseover",function(){
+  this.classList.add("btn-green");
+  this.classList.remove("btn-white");
+  this.firstChild.classList.add("green");
+})
+document.getElementById("button").addEventListener("mouseout",function(){
+  this.classList.add("btn-white");
+  this.classList.remove("btn-green");
+  this.firstChild.classList.remove("green");
+})
