@@ -11,24 +11,28 @@
 .nav {
   position: fixed;
   width: 100%;
-  height: 100px;
+  height: 90px;
   transition: all 0.5s;
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
 }
 .after-scroll {
-  height: 70px;
+  height: 60px;
 }
 .nav h2 {
   margin-left: 5%;
   font-size: 2.1vw;
   font-weight: 900;
+  letter-spacing: 0.1vw;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 .nav h2:hover {
   cursor: pointer;
 }
 .h2-scroll {
-  font-size: 1.5vw;
+  font-size: 1.5vw !important;
 }
 .nav ul {
   margin-right: 5%;
