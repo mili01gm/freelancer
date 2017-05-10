@@ -1,4 +1,10 @@
 /*Container styles*/
+.w-total {
+  width: 100%;
+}
+.h-total {
+  height: 98%;
+}
 .flex {
   display: flex;
 }
@@ -29,10 +35,19 @@
 .wrap {
   flex-wrap: wrap;
 }
+.no-wrap {
+  flex-wrap: nowrap;
+}
 
 /*Fonts styles*/
 .title-font {
   font-family: 'Montserrat', sans-serif;
+}
+.title-section {
+  font-size: 3vw;
+  font-weight: 700;
+  letter-spacing: 0.1vw;
+  margin: 0;
 }
 .upper-text {
   text-transform: uppercase;
@@ -50,22 +65,28 @@
   background: #18bc9c;
   color: white;
 }
-.bg.red {
-  background: #ba4c63;
-}
 .bg-white {
   background: #ffffff;
 }
 .bg-none {
   color: #2c3e50;
 }
-
 .btn-white {
   background: none;
   color: #ffffff;
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 5px;
-  padding: 10px;
+  font-size: 1.5vw;
+  padding: 0 10px;
+}
+.white {
+  color: #ffffff;
+}
+.green {
+  color: #18bc9c;
+}
+.gray {
+  color: #2c3e50;
 }
 
 /*Star separator*/
@@ -83,4 +104,21 @@
 }
 .star-div span {
   font-size: 2.15vw;
+}
+
+/*Columns just in case*/
+.row::before,
+.row::after {
+  content: "";
+  display: table;
+}
+.row::after {
+  clear: both;
+}
+[class*="col-"]{
+  float: left;
+  padding: 1%;
+}
+.col-4 {
+  width: 33.3333%;
 }

@@ -8,10 +8,11 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="assets/typo/css/font-awesome.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:400,700" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="assets/images/profile.png">
 	<title>Freelancer</title>
 </head>
 <body>
-	<nav class="nav flex j-between align-center bg-gray" id="nav">
+	<nav class="nav flex j-between align-center w-total bg-gray" id="nav">
 		<h2 class="title-font upper-text" id="nav-title">Start Bootstrap</h2>
 		<ul>
 			<li>
@@ -25,7 +26,7 @@
 			</li>
 		</ul>
 	</nav>
-	<header class="header flex column j-end align-center bg-green">
+	<header class="header flex column j-end align-center w-total bg-green">
 		<img src="assets/images/profile.png" alt="profile photo">
 		<div class="text-header">
 			<h1 class="title-font upper-text">Start Bootstrap</h1>
@@ -37,39 +38,57 @@
 			<span class="light-text">Web Developer - Graphic Artist - User Experience Designer</span>
 		</div>
 	</header>
-	<section class="portfolio flex column j-center align-center" id="portfolio">
-		<h2 class="upper-text">Portfolio</h2>
+	<section class="portfolio flex column j-center align-center w-total" id="portfolio">
+		<h2 class="upper-text title-font title-section gray">Portfolio</h2>
 		<div class="star-div flex j-center align-center">
 			<div class="bg-gray"></div>
 			<span class="fa fa-star bg-none"></span>
 			<div class="bg-gray"></div>
 		</div>
 		<div class="portfolio-content flex j-around wrap align-center">
-			<div class="catalogue bg-red"></div>
-			<div class="catalogue "></div>
-			<div class="catalogue "></div>
-			<div class="catalogue "></div>
-			<div class="catalogue "></div>
-			<div class="catalogue "></div>
+			<div class="catalogue">
+				<img src="assets/images/portfolio/cabin.png" class="w-total" alt="Vacation Spot">
+				<div class="w-total h-total bg-green flex j-center align-center"><span class="fa fa-search-plus bg-green"></span></div>
+			</div>
+			<div class="catalogue">
+				<img src="assets/images/portfolio/cake.png" class="w-total" alt="Birthday Cake">
+				<div class="w-total h-total bg-green flex j-center align-center"><span class="fa fa-search-plus bg-green"></span></div>
+			</div>
+			<div class="catalogue">
+				<img src="assets/images/portfolio/circus.png" class="w-total" alt="Afro Circus">
+				<div class="w-total h-total bg-green flex j-center align-center"><span class="fa fa-search-plus bg-green"></span></div>
+			</div>
+			<div class="catalogue">
+				<img src="assets/images/portfolio/game.png" class="w-total" alt="Let's play">
+				<div class="w-total h-total bg-green flex j-center align-center"><span class="fa fa-search-plus bg-green"></span></div>
+			</div>
+			<div class="catalogue">
+				<img src="assets/images/portfolio/safe.png" class="w-total" alt="Safety First">
+				<div class="w-total h-total bg-green flex j-center align-center"><span class="fa fa-search-plus bg-green"></span></div>
+			</div>
+			<div class="catalogue">
+				<img src="assets/images/portfolio/submarine.png" class="w-total" alt="UnderWater Proyect">
+				<div class="w-total h-total bg-green flex j-center align-center"><span class="fa fa-search-plus bg-green"></span></div>
+			</div>
 		</div>
 	</section>
-	<section class="about flex column j-center align-center bg-green" id="about">
-		<h2 class="title-font upper-text">About</h2>
+	<section class="about flex column j-center align-center w-total bg-green" id="about">
+		<h2 class="upper-text title-font title-section white">About</h2>
 		<div class="star-div flex j-center align-center">
 			<div class="bg-white"></div>
 			<span class="fa fa-star"></span>
 			<div class="bg-white"></div>
 		</div>
-		<article class="flex j-around">
+		<article class="flex j-around no-wrap">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos vel eius ipsam ducimus maiores voluptatibus dolorum, mollitia dolore officiis. Ab optio praesentium recusandae ipsam asperiores veniam, necessitatibus corporis quasi, dignissimos.</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dolorem, quas ipsa fuga similique. Nihil odit nobis iure, aliquid tempore eius possimus, quos impedit alias modi nostrum debitis adipisci? Dolorum.</p>
 		</article>
-		<buton type="button" class="btn-white"><span class=""></span>Download Theme</buton>
+		<buton type="button" class="btn-white"><span class="fa fa-download fa-stack"></span>Download Theme</buton>
 	</section>
-	<section class="contact" id="contact">
+	<section class="contact flex column j-around align-center w-total" id="contact">
 		<h2 class="title-font upper-text">Contact me</h2>
 	</section>
-	<footer class="footer flex j-around bg-gray">
+	<footer class="footer flex j-around w-total bg-gray">
 		<div>
 			<h2 class="upper-text title-font">Location</h2>
 		</div>

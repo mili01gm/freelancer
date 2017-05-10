@@ -11,13 +11,14 @@
 .nav {
   position: fixed;
   width: 100%;
-  height: 90px;
+  height: 100px;
+  z-index: 1000;
   transition: all 0.5s;
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
 }
 .after-scroll {
-  height: 60px;
+  height: 70px;
 }
 .nav h2 {
   margin-left: 5%;
@@ -77,34 +78,73 @@
   font-size: 1.9vw;
   font-weight: lighter;
 }
-
 /*End Header*/
 
 /*PORTFOLIO*/
 .portfolio {
-  height: 800px;
-  max-height: 100%;
+  padding: 120px 0;
 }
 .portfolio-content {
-  width: 80%;
-  height: 500px;
+  width: 85%;
 }
 .catalogue {
-  width: 25%;
-  height: 200px;
+  position: relative;
+  width: 360px;
+  max-width: 100%;
+  margin: 10px 0;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
-
-
-/**/
+}
+.catalogue:hover {
+  cursor: pointer;
+}
+.catalogue img:hover {
+  opacity: 0.07;
+  cursor: pointer;
+}
+.catalogue div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+.catalogue div:hover {
+  cursor: pointer;
+}
+.catalogue div span {
+  font-size: 5vw;
+}
+/*End Portfolio*/
 
 /*ABOUT*/
+.about {
+  padding: 120px 0;
+}
+.about article {
+  width: 70%;
+  padding: 0 50px;
+  margin-bottom: 50px;
+}
+.about article p {
+  font-size: 1.5vw;
+  width: 40%;
+}
+.about button {
+  text-align: center;
+}
+
 
 /**/
 
 /*CONTACT*/
 
+
 /**/
 
 /*FOOTER*/
+
+
 
 /**/
